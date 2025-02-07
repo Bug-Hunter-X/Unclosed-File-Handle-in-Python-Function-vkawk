@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Python: forgetting to close a file after opening it. The `bug.py` file contains a function that opens a file but doesn't close it, which can lead to resource exhaustion. The `bugSolution.py` file shows how to correctly close the file using either `with` statement or explicit `close()` method.
